@@ -46,7 +46,21 @@ header .main-menu li a {
 
 
 section {
-	background: linear-gradient(-35deg, #fff, #D6D6D6);
+	background-image: linear-gradient(-35deg, #fff, #D6D6D6);
+}
+
+.page-landing {
+	overflow: auto;
+}
+
+.page-landing .page-container {
+	background: url('../images/mountains.svg') no-repeat center center;
+	background-size: contain;
+	padding: 200px 0;
+}
+
+.page-landing .content-landing {
+	text-align: center;
 }
 
 .mountains {
@@ -59,10 +73,10 @@ section	.welcome1	{
 	font-family: 'HelveticaNeue-CondensedBold','Helvetica Neue', 'sans-serif';
 	font-weight: 900;
 	font-size: 55px;
-	position: absolute;
 	display: block;
 	background: linear-gradient(55deg, #F5E200, #EECB00);
 	margin: 0 auto;
-
-
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 80px;
 }
