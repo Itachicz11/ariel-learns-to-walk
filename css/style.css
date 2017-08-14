@@ -1,0 +1,68 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+header {
+	background: #2D2D2D;
+	overflow: auto;
+	padding: 25px;
+}
+
+header .logo {
+	display: inline-block;
+}
+
+header .logo a {
+	font-size: 30px;
+	color: #fff;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+header .main-menu {
+	margin: 0;
+	float: right;
+}
+
+header .main-menu li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+header .main-menu li a {
+	color:  #fff;
+	display: block;
+	line-height: 30px;
+}
+
+.page-container {
+	width:  1160px;
+	margin: 0 auto;
+}
+
+
+section {
+	background: linear-gradient(-35deg, #fff, #D6D6D6);
+}
+
+.mountains {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+section	.welcome1	{
+	font-family: 'HelveticaNeue-CondensedBold','Helvetica Neue', 'sans-serif';
+	font-weight: 900;
+	font-size: 55px;
+	position: absolute;
+	display: block;
+	background: linear-gradient(55deg, #F5E200, #EECB00);
+	margin: 0 auto;
+
+
+}
