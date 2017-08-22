@@ -3,7 +3,14 @@ html, body {
 	margin: 0;
 }
 
+body {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
 
+h1, h2, h3 {
+	margin: 0;
+
+}
 
 header {
 	background: #2D2D2D;
@@ -31,6 +38,11 @@ header .main-menu li {
 	list-style: none;
 	display: inline-block;
 	margin-left: 30px;
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica Neue', 'sans-serif';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 14px;
+	font-size: 14px;
 }
 
 header .main-menu li a {
@@ -45,24 +57,179 @@ header .main-menu li a {
 }
 
 
-section {
-	background: linear-gradient(-35deg, #fff, #D6D6D6);
+
+.article_heading {
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
 }
 
-.mountains {
-	width: 100%;
-	margin: 0 auto;
-	display: block;
+.page-landing .page-container {
+	background: url('../images/mountains.svg') no-repeat center;
+	background-size: contain;
+	height: 700px;
+}
+
+section {
+	background: linear-gradient(-35deg, #fff, #D6D6D6);
+	padding-top: 40px;
+	overflow: auto;
+
 }
 
 section	.welcome1	{
-	font-family: 'HelveticaNeue-CondensedBold','Helvetica Neue', 'sans-serif';
+	font-family: 'HelveticaNeue-CondensedBlack','Helvetica Neue', 'sans-serif';
 	font-weight: 900;
 	font-size: 55px;
-	position: absolute;
-	display: block;
+	display: inline-block;
 	background: linear-gradient(55deg, #F5E200, #EECB00);
+	padding: 5px 120px	5px 40px;
+	margin-top: 45%;
+	margin-right: 20%
+}
+
+section	.welcome2	{
+	background: linear-gradient(65deg, #CE0BCA, #FF94B0);
+	font-family: 'OpenSans-Light', 'sans-serif';
+	font-size: 31px;
+	color: #FFFFFF;
+	width: 495px;
+	height: 50px;
+	display: inline-block;
+	font-weight: 100;
+	margin-top: 5%;
+	margin-left: 22%;
+	
+}
+
+.content-landing {
+	text-align: center;
 	margin: 0 auto;
+	width: 587px;
+}
+
+.page-articles {
+	background: #FFF;
+}
+
+.page-articles .article {
+	float: left;
+	width: 33.333%;
+}
+
+.thumbnail {
+	width: 370px; 
+	height: auto;
+}
+
+.entry-title {
+	text-decoration: none;
+	padding-top: 20px;
+	color: #000;
+	font-family: 'HelveticaNeue-CondensedBold','Helvetica Neue', 'sans-serif';
+}
+
+.entry-content{
+	color: #4D4D4D;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	line-height: 24px;
+}
+ 
+ .article {
+ 	margin-bottom: 100px;
+ }
+.read-more {
+	color: #0761DB;
+	font-family: 'HelveticaNeue-CondensedBold','Helvetica Neue', 'sans-serif';
+	letter-spacing: 1px;
+}
+
+.about_us {
+	background: #0761DB;
+	color: #FFF;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	padding-bottom: 50px;
+}
+
+.about-title, .about-subtitle {
+	font-weight: 400;
+	text-align: center;
+}
+
+.about-title {
+	font-size: 30px;
+	margin-bottom: 40px;
+	font-family: 'HelveticaNeue-CondensedBold','Helvetica Neue', 'sans-serif';
+	letter-spacing: 1px;
+}
+
+.about-subtitle {
+	font-size: 25px;
+}
+
+.line-dec {
+	background: url('../images/divider.png') center center no-repeat;
+}
+
+.about_content {
+	margin-top: 50px;
+	float: left;
+	display: inline-block;
+}
+
+.sm_mountains {
+	float: right;
+	margin-right: 50px;
+	margin-top: 35px;
+}
+
+.contact-us {
+	background: #FFF;
+	margin-bottom: 50px;
+}
 
 
+.contact-header {
+	font-family: 'HelveticaNeue-CondensedBlack','Helvetica Neue', 'sans-serif';
+	letter-spacing: 1px;
+	text-align: center;
+	color: #0761DB;
+	margin-bottom: 35px;
+}
+
+.contact-form {
+	font-weight: 900;
+	color: #0761DB;
+	display: inline-block;
+	float: left;
+}
+
+.contact-name-content, .contact-subject-content {
+	margin-bottom: 10px;
+	border-color: #2B2B2B;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+
+.map {
+	display: inline-block;
+	width: 33.333%;
+	float: right;
+	padding-right: 10px;
+}
+
+.submit-button {
+	color: #FFF;
+	background-color: #0761DB;
+	padding: 12px 20px;
+	overflow: visible;
+	border-radius: 4px;
+	border: none;
+	font-family: 'HelveticaNeue-CondensedBold', 'Helvetica', sans-serif;
+	font-size: 15px;
+	padding: 5px 15px;
+	width: 50px;
+	letter-spacing: 1px;
 }
